@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "2c23fe14-e5eb-496f-a34b-3ec76910df5a",
+		"name": "API - Igor - Pokemon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33626128"
+	},
+	"item": [
+		{
+			"name": "obterPorNome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/pokemon/ditto",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemon",
+						"ditto"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
